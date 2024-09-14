@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
+import project2 from "../assets/projects/project-2.jpeg";
+import project3 from "../assets/projects/project-3.jpeg";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like Reactjs, as well as back-end technologies like Node.js,Express.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,32 +40,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real time 1v1 MCQ battle Arena",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a real-time multiplayer MCQ battle game using Nodejs and React with Socket.io for Web Sockets Integration. ",
+    technologies: [ "React", "Node.js", "MongoDB", "JavaScript",""],
   },
   {
-    title: "Task Management App",
+    title: "Rubiks Cube Solver",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Modeled a virtual Rubik Cube (3x3) in 2 different models/classes using standards data-structures present in C++.",
+    technologies: ["OOPs", "System Design", "Data Structure and Algorithm"],
   },
   {
-    title: "Portfolio Website",
+    title: "Chat App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a chat application for real-time communication, along with an admin dashboard for user management and monitoring.",
+    technologies: ["Socket.io", "NodeJS", "Material-UI", "React"],
   },
 ];
 
