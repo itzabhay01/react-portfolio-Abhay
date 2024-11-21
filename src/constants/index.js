@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpeg";
+import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpeg";
 
@@ -40,11 +40,12 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "Real time 1v1 MCQ battle Arena",
+    title: "Rule engine using AST",
     image: project1,
     description:
-      "Developed a real-time multiplayer MCQ battle game using Nodejs and React with Socket.io for Web Sockets Integration. ",
-    technologies: [ "React", "Node.js", "MongoDB", "JavaScript",""],
+      "Developed a Rule Engine that parses rule strings into ASTs for efficient rule evaluation and decision-making.",
+    technologies: [ "React", "Node.js", "MongoDB", "JavaScript"],
+    url:"https://github.com/itzabhay01/Rule_Engine"
   },
   {
     title: "Rubiks Cube Solver",
@@ -52,6 +53,7 @@ export const PROJECTS = [
     description:
       "Modeled a virtual Rubik Cube (3x3) in 2 different models/classes using standards data-structures present in C++.",
     technologies: ["OOPs", "System Design", "Data Structure and Algorithm"],
+    url:"https://github.com/itzabhay01/Rubixcubesolver"
   },
   {
     title: "Chat App",
@@ -59,6 +61,7 @@ export const PROJECTS = [
     description:
       "Developed a chat application for real-time communication, along with an admin dashboard for user management and monitoring.",
     technologies: ["Socket.io", "NodeJS", "Material-UI", "React"],
+    url:"https://github.com/itzabhay01/chat_app"
   },
 ];
 
